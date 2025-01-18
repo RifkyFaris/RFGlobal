@@ -1,48 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>RF GLOBAL</title>
     <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-</head>
-<body>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <div class="nav">
-            <img src="rf psd.png" alt="logo" class="logo">
-            <ion-icon class="menu" id="menu" onclick="menuOpen()" name="menu"></ion-icon>
-            <ion-icon class="menuClose" id="menuClose" onClick="menuClose()" name="close"></ion-icon>
-            
+      <div class="nav" id="home">
+            <img src="rf psd.png" alt="logo" class="logo" />
+        
+        
+        <ion-icon
+          class="menu"
+          id="menu"
+          onclick="menuOpen()"
+          name="menu"
+        ></ion-icon>
+        <ion-icon
+          class="menuClose"
+          id="menuClose"
+          onClick="menuClose()"
+          name="close"
+        ></ion-icon>
+      </div>
+      <br />
+      <div class="navmenu" id="navmenu">
+        <ul>
+          <a class="navmenus" onclick="menuClose()" href="#home"
+            ><li>Home</li></a
+          >
+          <a class="navmenus" onclick="menuClose()" href="#"><li>About</li></a>
+          <a class="navmenus" onclick="menuClose()" href="#"
+            ><li>Our Services</li></a
+          >
+          <a class="navmenus" onclick="menuClose()" href="#"
+            ><li>Testimonials</li></a
+          >
+          <a class="navmenus" onclick="menuClose()" href="#"
+            ><li>Contact Us</li></a
+          >
+        </ul>
+      </div>
+      <br id="menubr" />
+
+      <div class="hero" id="hero">
+        <div class="text">
+          <p class="we">
+            We create <br />innovative <span class="ai">digital</span> products
+            and <br />
+            <span class="ai">AI-driven</span> solutions<span class="ai">.</span>
+          </p>
+          <br />
+          <p class="collaborate">
+            We collaborate with businesses, enterprises, and government
+            organizations globally to develop advanced technology products and
+            artificial intelligence solutions that empower them to achieve their
+            objectives.
+          </p>
+          <br />
+
+          <a href="#"><p class="schedule">Schedule a free consultation.</p></a>
         </div>
-        <br>
-        <div class="navmenu" id="navmenu">
-            
-                <ul >
-                    <a class="navmenus" onclick="menuClose()" href="#hero"><li>Home</li></a>
-                    <a class="navmenus" onclick="menuClose()" href="#"><li>About</li></a>
-                    <a class="navmenus" onclick="menuClose()" href="#"><li>Our Services</li></a>
-                    <a class="navmenus" onclick="menuClose()" href="#"><li>Testimonials</li></a>
-                    <a class="navmenus" onclick="menuClose()" href="#"><li>Contact Us</li></a>
-    
-                </ul>
-                
-           
-        </div>
-        <br id="menubr">
-        
-        <!--
-        <div class="hero" id="hero">
-            <video class="video" src="Yellow, Black and White Minimalist Animated Business Advertising Mobile Video (3) (online-video-cutter.com).mp4" controlsList="nodownload" disablePictureInPicture autoplay muted loop ></video>
-        </div>
-        -->
-        
-        
-        
-        
-        
+        <video
+          class="video"
+          src="Yellow, Black and White Minimalist Animated Business Advertising Mobile Video (3) (online-video-cutter.com).mp4"
+          controlsList="nodownload"
+          disablePictureInPicture
+          autoplay
+          muted
+          loop
+        ></video>
+      </div>
     </div>
-</body>
+  </body>
 </html>

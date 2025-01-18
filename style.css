@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-size: 20px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;*/
 :root{
     --orange:#ff4917;
     --blue:#151f28;
@@ -19,6 +25,7 @@ background: var(--orange);
 .logo{
     width: 130px;
     border-radius: 6px;
+    
 }
 .nav{
    display: flex;
@@ -58,6 +65,10 @@ ul{
     display: flex;
     justify-content: space-around;
     font-size: 20px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
     
 }
 .navmenu{
@@ -81,11 +92,57 @@ ul{
 #menubr{
     display: none;
 }
-
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    padding: 45px 0px 20px 10px;
+}
+.we{
+    font-size: 60px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: var(--blue);
+}
+.ai{
+    color: var(--orange);
+}
+.collaborate{
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  color: var(--blue);
+}
+.schedule{
+    background: var(--blue);
+    color: var(--white);
+    padding: 20px;
+    width: 260px;
+    border-radius: 6px;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.schedule:hover{
+    background: var(--orange);
+    color: var(--blue);
+}
 @media screen and (max-width:450px){
     
 .container{
-    max-width: 380px;
+    max-width: 360px;
     margin: 15px auto 20px auto;
     
 }
@@ -109,6 +166,49 @@ ul{
    
 }
 
+.video{
+    border-radius: 6px;
+    width: 320px;
+    height: 320px;
+    
+}
+
+.hero{
+    flex-direction: column-reverse;
+    
+}
+.text{
+    padding: 20px ;
+}
+.we{
+    font-size: 25px;
+    
+  
+  text-align: center;
+ 
+}
+.ai{
+    color: var(--orange);
+}
+.collaborate{
+    font-size: 16px;
+    
+  text-align: center;
+}
+.schedule{
+        
+    padding: 15px;
+    width: 255px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+
+
 
 }
 
@@ -118,5 +218,29 @@ ul{
         max-width: 330px;
         margin: 15px auto 20px auto;
         
+    }
+    .video{
+        border-radius: 6px;
+        width: 290px;
+        height: 290px;
+        
+    }
+    .we{
+        font-size: 25px;
+        
+      
+      text-align: center;
+     
+    }
+    .schedule{
+        
+        padding: 15px;
+        width: 220px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-family: "Work Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: 250;
+      font-style: normal;
     }
 }
