@@ -1,0 +1,122 @@
+:root{
+    --orange:#ff4917;
+    --blue:#151f28;
+    --white:#fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+background: var(--orange);
+}
+.container{
+    max-width: 1250px;
+    margin: 25px auto 20px auto;
+    
+}
+.logo{
+    width: 130px;
+    border-radius: 6px;
+}
+.nav{
+   display: flex;
+   justify-content: space-between;
+   background: var(--white);
+   padding: 10px 10px 10px 10px;
+   border-radius: 6px;
+}
+.hero{
+    background: var(--white);
+    border-radius: 6px;
+    padding: 20px;
+    
+}
+.video{
+    border-radius: 6px;
+    width: 570px;
+    height: 570px;
+    
+}
+.menu{
+    width:40px;
+    height: 40px;
+    background: var(--white);
+    color: var(--orange);
+}
+.menuClose{
+    width:40px;
+    height: 40px;
+    background: var(--white);
+    color: var(--orange);
+    display: none;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+.navmenu{
+    background: var(--white);
+    padding: 10px 20px 10px 20px;
+   border-radius: 6px;
+   display: none;
+    
+}
+.navmenus{
+    text-decoration: none;
+    color: var(--blue);
+    padding: 5px;
+}
+.navmenus:hover{
+    background: var(--orange);
+    padding: 5px;
+    border-radius: 6px;
+    color: var(--white);
+}
+#menubr{
+    display: none;
+}
+
+@media screen and (max-width:450px){
+    
+.container{
+    max-width: 380px;
+    margin: 15px auto 20px auto;
+    
+}
+
+.nav{
+   padding: 10px 10px 10px 10px;
+}
+.menu{
+    width:35px;
+    height: 35px;
+    margin-top: 3px;
+
+}
+.menuClose{
+    width:35px;
+    height: 35px;
+    margin-top: 3px;
+}
+ul{
+    display: block;
+   
+}
+
+
+}
+
+@media screen and (max-width:376px){
+   
+    .container{
+        max-width: 330px;
+        margin: 15px auto 20px auto;
+        
+    }
+}
