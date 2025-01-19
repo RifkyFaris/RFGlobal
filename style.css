@@ -203,6 +203,111 @@ a{
 .col1:hover{
     border: 3px solid var(--blue);
 }
+.have{
+    color: var(--blue);
+    text-align: center;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 40px;
+}
+.connect{
+    background: var(--orange);
+    padding: 0px 5px;
+    border-radius: 6px;
+    color: var(--white);
+}
+.schedule1{
+    background: var(--blue);
+    color: var(--white);
+    padding: 20px;
+    width: 260px;
+    border-radius: 6px;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  margin: 20px auto 5px auto ;
+}
+
+.schedule1:hover{
+    background: var(--orange);
+}
+.copy{
+    font-size: 15px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.social{
+    margin-left: 0px;
+}
+.menufooter{
+    width:30px;
+    height: 30px;
+    background: var(--white);
+    color: var(--blue);
+    margin-left: 25px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background: var(--white);
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+ }
+ .label{
+    font-size: 20px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: var(--blue);
+ }
+ .input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid --blue;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: var(--blue);
+  margin-top: 10px;
+  width: 350px;
+  height: 50px;
+ }
+ .textarea{
+    border: 1px solid --blue;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: var(--blue);
+  margin-top: 10px;
+  width: 400px;
+  height: 100px;
+  border-radius: 6px;
+ }
+ .submit{
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 6px;
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+ }
+ .submit:hover{
+    background: var(--orange);
+ }
+
 
 @media screen and (max-width:450px){
     
@@ -272,6 +377,21 @@ ul{
   font-style: normal;
   text-align: center;
 }
+.schedule1{
+        
+    padding: 15px;
+    width: 255px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+.have{
+    font-size: 30px;
+}
 
 .what{
     
@@ -313,6 +433,56 @@ ul{
     
   margin-top: 10px;
 }
+.footer{
+    display: block;
+    background: var(--white);
+    padding: 10px 10px 10px 10px;
+    border-radius: 6px;
+    margin: 0px auto;
+ }
+ .social{
+    margin-left: 70px;
+    margin-top: 20px;
+ }
+ .menufooter{
+    width:20px;
+    height: 20px;
+    background: var(--white);
+    color: var(--blue);
+    margin-left: 10px;
+}
+.copy{
+    text-align: center;
+}
+
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid --blue;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: var(--blue);
+  margin-top: 10px;
+  width: 290px;
+  height: 50px;
+ }
+ 
+ .textarea{
+    border: 1px solid --blue;
+    font-size: 19px;
+    font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: var(--blue);
+  margin-top: 10px;
+  width: 290px;
+  height: 100px;
+
+ }
+
 
 
 
@@ -350,10 +520,25 @@ ul{
       font-weight: 250;
       font-style: normal;
     }
+    .schedul1{
+        
+        padding: 15px;
+        width: 220px;
+        border-radius: 6px;
+        font-size: 16px;
+        font-family: "Work Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: 250;
+      font-style: normal;
+    }
     
 .col1{
     
    
   width: 270px;
 }
+.have{
+    font-size: 30px;
+}
+
 }
